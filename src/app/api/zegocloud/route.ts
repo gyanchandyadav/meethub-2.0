@@ -1,4 +1,4 @@
-import { generateToken04 } from "./zegoServerAssistant";
+import { generateToken04 } from "./zegoServerAssistant.js";
 
 export async function GET(req: Request) {
 	const url = new URL(req.url);
